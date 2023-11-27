@@ -1,38 +1,196 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body{
+    background-color:#2C363F;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pg{
+color: #00b4d8;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+    font-size: x-large;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: black;
+    color: green;
+    display: flex;
+    gap: 5%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.btn{
+    color: #FFC145;
+    cursor: pointer;
+    text-decoration: underline;
+}
+h2{
+    color: #7FD1B9;
+}
+.btn:hover{
+    color:tomato;
+}
+.arr{
+    position: relative;
+    top:5px;
+}
+.img{
+    margin-top: 5%;
+}
+.btn1{
+    position: fixed;
+    top: 35%;
+    font-size: larger;
+    color: #FFC145;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: red;
+}
+a{
+    color: white;
+}
+.aboutpg{
+    font-size: 17px;
+    margin-top: 5%;
+    color: white;  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height: 50vh;  
+    gap:5%;
+}
+.name{
+    color: yellow;
+    font-size: 70px;
+}
+ul{
+    color: white;
+}
+.conn{
+    margin-top: 20%;
+    color: #7FD1B9;
+}
+.icons{
+    margin-top: 5%;
+    color: white;
+}
+.pg{
+  color: white;  
+  height: 80vh;  
+  display: flex;   
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  gap: 20%;
 }
-
-.App-link {
-  color: #61dafb;
+.left{
+    margin-top: 10%;
+    color: rgb(247, 11, 180);
+    font-size: 40px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right img{
+    margin-top: 20%;
+    border-radius: 50%;
+}
+.footer{
+    font-size: larger;
+    text-align: center;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    height: auto;    
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.tool{
+    margin-top: 30%;
+}
+.header:hover{
+    text-decoration:underline;
+    cursor: pointer;
+    color: rgb(216, 15, 159);
+}
+#id{
+    margin-bottom: 4%;
+}
+#tools{
+    margin-bottom: 8%;
+}
+#id:hover{
+    color:#FFC145;
+    cursor: pointer;
+}
+#tools:hover{
+    color:#FFC145;
+    cursor: pointer;
+}
+.edu{
+    font-size: 17px;
+    color:black;
+    padding-right: 2%;
+    margin-left: 30%;
+    margin-top: 8%;
+    width: 40%;
+    height: auto;
+    color: white;
+    box-shadow: 6px 6px 20px black;
+}
+.edu1{
+    display: flex;
+    font-size: 17px;
+    color:black;
+    padding-right: 2%;
+    margin-top: 5%;
+    width: 80%;
+    height: auto;
+    color: white;
+    box-shadow: 6px 6px 20px black;
+    gap:10%;
+}
+.grd{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-right: 2%;
+    margin-top: 7%;
+    margin-left: 5%;
+    color: white;
+}
+.pd{
+    padding: 4%;
+}
+.head{
+    font-weight: bold;
+    font-size: xx-large;
+    color: #7FD1B9;
+    width:100%;
+    padding: 2%;
+    font-size: x-large;
+    color: black;
+    text-align: center;
+    background-color: yellow;
+}
+.arrow{
+    display: grid;
+    padding-right: 15%;
+    grid-template-columns: auto auto auto;
+    margin-left: 35%;
+    padding-bottom: 5%;
+}
+.eduarr:hover{
+    color: #fb5607;
+    cursor: pointer;
+}
+.header{
+    margin-left: 5%;
+}
+.bor{
+    padding-left: 15%;
+    border-left: #00b4d8 solid;
+}
+.col{
+    color: #f4d35e;
+}
+.acol{
+    color: #7fc8f8;
+    text-decoration: none;
 }
