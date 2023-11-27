@@ -37,7 +37,7 @@ function About() {
           <ul>
             <li  id="tools">github</li>
             <li id="tools">Git</li>
-            <li id="tools">versal</li>
+            <li id="tools">vercel</li>
             <li id="tools">Render</li>
             <li id="tools">Node</li>
           </ul>
